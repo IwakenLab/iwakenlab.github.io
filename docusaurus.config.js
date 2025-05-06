@@ -6,7 +6,7 @@ const config = {
   baseUrl: '/',
   organizationName: 'iwakenlab',
   projectName: 'iwakenlab.github.io',
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
   trailingSlash: true,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
