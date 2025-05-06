@@ -6,6 +6,7 @@ const config = {
   baseUrl: '/',
   organizationName: 'iwakenlab',
   projectName: 'iwakenlab.github.io',
+  deploymentBranch: 'main',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
