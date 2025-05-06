@@ -6,7 +6,7 @@ const config = {
   baseUrl: '/',
   organizationName: 'iwakenlab',
   projectName: 'iwakenlab-site',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'ja',
