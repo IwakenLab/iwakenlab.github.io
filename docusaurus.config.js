@@ -3,7 +3,7 @@ const config = {
   tagline: 'AIと検索エンジンが理解できるラボの公式サイト',
   favicon: 'img/favicon.ico',
   url: 'https://iwakenlab.github.io',
-  baseUrl: '/',
+  baseUrl: '/iwakenlab-site/',
   organizationName: 'iwakenlab',
   projectName: 'iwakenlab-site',
   onBrokenLinks: 'warn',
