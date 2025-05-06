@@ -1,14 +1,11 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Iwaken Lab. 概要
+# Iwaken Lab. へようこそ
 
-## 仮タイトル：Iwaken Lab.とは
-
-ここに内容を記述
-
-## ラボの特徴
+## ラボ概要
 
 ここに内容を記述
 

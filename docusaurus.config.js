@@ -7,6 +7,7 @@ const config = {
   organizationName: 'iwakenlab',
   projectName: 'iwakenlab.github.io',
   deploymentBranch: 'main',
+  trailingSlash: true,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
@@ -34,6 +35,7 @@ const config = {
       logo: {
         alt: 'Iwaken Lab. Logo',
         src: 'img/logo.svg',
+        srcDark: 'img/logo-dark.svg',
       },
       items: [
         {
