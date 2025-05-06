@@ -3,9 +3,9 @@ const config = {
   tagline: 'AIと検索エンジンが理解できるラボの公式サイト',
   favicon: 'img/favicon.ico',
   url: 'https://iwakenlab.github.io',
-  baseUrl: '/iwakenlab-site/',
+  baseUrl: '/',
   organizationName: 'iwakenlab',
-  projectName: 'iwakenlab-site',
+  projectName: 'iwakenlab.github.io',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
@@ -18,7 +18,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/iwakenlab/iwakenlab-site/tree/main/',
+          editUrl: 'https://github.com/iwakenlab/iwakenlab.github.io/tree/main/',
         },
         blog: false,
         theme: {
@@ -42,7 +42,7 @@ const config = {
           label: 'ドキュメント',
         },
         {
-          href: 'https://github.com/iwakenlab/iwakenlab-site',
+          href: 'https://github.com/iwakenlab/iwakenlab.github.io',
           label: 'GitHub',
           position: 'right',
         },
