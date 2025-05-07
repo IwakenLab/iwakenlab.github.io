@@ -1,0 +1,28 @@
+{
+  "members": {
+    "2024": {
+      "labMembers": [
+        {
+          "id": "iwaken",
+          "name": "岩見 拓也",
+          "role": "代表",
+          "image": "/img/members/iwaken.jpg",
+          "mission": "検索エンジン技術を通じて、情報アクセシビリティを向上させる",
+          "interests": [
+            "検索エンジン技術",
+            "自然言語処理",
+            "情報検索",
+            "オープンソースソフトウェア"
+          ],
+          "links": {
+            "github": "https://github.com/iwaken",
+            "twitter": "https://twitter.com/iwaken71",
+            "blog": "https://iwaken71.dev"
+          }
+        }
+      ],
+      "mentors": [],
+      "collaborators": []
+    }
+  }
+} 

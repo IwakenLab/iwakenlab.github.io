@@ -21,6 +21,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/iwakenlab/iwakenlab.github.io/tree/main/',
+          routeBasePath: '/',
         },
         blog: false,
         theme: {
@@ -40,12 +41,27 @@ const config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'ドキュメント',
+          sidebarId: 'tutorialSidebar',
+          label: 'ラボ概要',
         },
         {
-          href: 'https://github.com/iwakenlab/iwakenlab.github.io',
+          to: '/history',
+          label: '歴史',
+          position: 'left',
+        },
+        {
+          to: '/members',
+          label: 'メンバー',
+          position: 'left',
+        },
+        {
+          to: '/achievements',
+          label: '活動実績',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/iwakenlab',
           label: 'GitHub',
           position: 'right',
         },
@@ -59,11 +75,11 @@ const config = {
           items: [
             {
               label: 'ラボ概要',
-              to: '/docs/index',
+              to: '/',
             },
             {
               label: '理念・背景',
-              to: '/docs/philosophy',
+              to: '/philosophy',
             },
           ],
         },
@@ -79,6 +95,12 @@ const config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Iwaken Lab. Built with Docusaurus.`,
     },
+    scripts: [
+      {
+        src: '/js/member-search.js',
+        async: true,
+      },
+    ],
   },
 };
 
