@@ -19,10 +19,57 @@
             "twitter": "https://twitter.com/iwaken71",
             "blog": "https://iwaken71.dev"
           }
+        },
+        {
+          "id": "member1",
+          "name": "メンバー1",
+          "role": "メンバー",
+          "image": "/img/members/member1.jpg",
+          "mission": "AI技術で社会課題を解決する",
+          "interests": [
+            "機械学習",
+            "深層学習",
+            "Python"
+          ],
+          "links": {
+            "github": "https://github.com/member1"
+          }
         }
       ],
-      "mentors": [],
-      "collaborators": []
+      "mentors": [
+        {
+          "id": "mentor1",
+          "name": "メンター1",
+          "role": "メンター",
+          "image": "/img/members/mentor1.jpg",
+          "mission": "次世代の技術者育成",
+          "interests": [
+            "技術教育",
+            "リーダーシップ",
+            "プロジェクトマネジメント"
+          ],
+          "links": {
+            "github": "https://github.com/mentor1"
+          }
+        }
+      ],
+      "collaborators": [
+        {
+          "id": "collaborator1",
+          "name": "コラボレーター1",
+          "role": "コラボレーター",
+          "image": "/img/members/collaborator1.jpg",
+          "mission": "オープンイノベーションの促進",
+          "interests": [
+            "オープンソース",
+            "コミュニティ",
+            "技術協業"
+          ],
+          "links": {
+            "github": "https://github.com/collaborator1"
+          }
+        }
+      ]
     }
   }
 } 
